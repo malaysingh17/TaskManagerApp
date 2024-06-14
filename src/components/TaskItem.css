@@ -1,0 +1,51 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f5a6d;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgb(39, 38, 38);
+  border-radius: 0.5rem;
+}
+
+.task-item h3 {
+  font-size: 25px;
+  color: rgb(0, 230, 122);
+  font-weight: bold;
+  margin: 0px;
+  font-family: Georgia, serif;
+}
+
+.task-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(179, 178, 178);
+  font-family: cursive;
+}
+
+.icon {
+  font-size: 35px;
+  cursor: pointer;
+  color: red;
+}
+
+.icon:hover {
+  background-color: red;
+  color: black;
+
+}
+
+.check-icon {
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(0, 230, 122);
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.check-icon:hover {
+  color: rgb(4, 192, 104);
+}
